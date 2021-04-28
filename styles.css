@@ -1,0 +1,68 @@
+*,
+html,
+body { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    margin: 0.35rem;
+}
+
+ol,
+ul {
+    margin-left: 1.5rem;
+}
+
+li {
+    margin-bottom: 1rem;
+}
+
+.container {
+    width: 50%;
+    height: auto;
+    margin: auto;
+    padding: 2rem;
+}
+
+section.header {
+    width: 100%;
+    text-align: center;
+    border: none;
+}
+
+.header > h3 {
+    font-size: 24px;
+}
+
+.header > h5 {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.email {
+    color: rgb(56, 100, 243);
+    text-decoration: underline;
+}
+
+section {
+    margin-top: 2rem;
+    padding-top: .75rem;
+    border-top: 1px solid #000000;
+}
+
+.section-head {
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: 0.3rem;
+}
+
+.education-year {
+    margin-left: 5rem;
+}
+
+.career-summary li {
+    margin: .5rem;
+}
+
