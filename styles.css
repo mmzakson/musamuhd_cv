@@ -52,6 +52,13 @@ section {
     border-top: 1px solid #000000;
 }
 
+section.resume {
+    margin-top: 2rem;
+    padding-top: .75rem;
+    border-top: none;
+
+}
+
 .section-head {
     font-weight: bold;
     font-size: 1rem;
