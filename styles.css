@@ -20,7 +20,7 @@ li {
 }
 
 .container {
-    width: 50%;
+    width: 60%;
     height: auto;
     margin: auto;
     padding: 2rem;
@@ -73,3 +73,37 @@ section.resume {
     margin: .5rem;
 }
 
+.logos {
+    
+}
+
+
+.powered {
+    font-size: 24px;
+    font-style: italic;
+    color: #686666;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo img {
+}
+
+
+@media (max-width: 900px) {
+    .container {
+        width: 90%;
+        height: auto;
+        padding: 5rem;
+    }
+}
+
+@media (min-width: 800px) {
+    .logos {
+        display: flex;
+    justify-content: space-around;
+    }
+}
